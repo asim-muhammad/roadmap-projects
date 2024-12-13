@@ -1,0 +1,1 @@
+Same as Basic but this time it has been styled using **CSS**. I have added media queries as well as styles and custom fonts.
