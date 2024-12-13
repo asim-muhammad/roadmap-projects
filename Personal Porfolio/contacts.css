@@ -1,0 +1,72 @@
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 12px;
+    gap: 16px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2rem;
+    background: rgb(239, 239, 217);
+
+    >div{
+        flex: 1;
+        min-width: 230px;
+
+        &:nth-child(2){
+            padding: 20px;
+            color: rgb(59, 59, 51);
+        }
+    }
+}
+
+input, textarea{
+    width: 100%;
+    min-width: 20px;
+    padding:    12px;
+    font-size: 15px;
+    border: none;
+    margin: 4px;
+    border-radius: 4px;
+    background: rgb(227, 227, 206);
+    transition: background .2s;
+    resize: none;
+
+    &:focus{
+        outline: none;
+        background: rgb(213, 213, 193);
+    }
+
+    &::placeholder{
+        color: rgb(50, 50, 38);
+    }
+}
+
+hr{
+    margin: 20px 0;
+}
+
+button{
+    padding: 12px 0;
+    color: rgb(89, 89, 75);
+    border-radius: 100px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid rgb(89, 89, 75);
+
+    &:hover{
+        color: beige;
+        border-color: rgb(89, 89, 75);
+        background: rgb(89, 89, 75);
+    }
+}
+
+.input-container,
+.address{
+    display: flex;
+    flex-direction: column;
+}
+

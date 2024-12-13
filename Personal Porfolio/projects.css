@@ -1,0 +1,54 @@
+
+h2{
+    padding: 12px 0;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    padding-top: 22px;
+}
+
+.projects li{
+    border: 1px solid;
+    transition: all .3s;
+
+    >div{
+        height: 150px;
+        background: rgb(229, 229, 203);
+    transition: all .3s;
+
+    }
+
+    >span{
+        padding: 12px 4px;
+        display: block;
+    }
+
+    &:hover{
+        scale: 1.015;
+        
+        >div{
+            background: rgb(222, 222, 194);
+        }
+    }
+
+}
+
+@media (width < 1000px){
+    .projects{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (width < 700px){
+    .projects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width < 420px){
+    .projects{
+        grid-template-columns: 1fr;
+    }
+}

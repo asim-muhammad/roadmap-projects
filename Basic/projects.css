@@ -1,0 +1,40 @@
+
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    padding-top: 12px;
+}
+
+.projects li{
+    border: 1px solid;
+
+    >div{
+        height: 150px;
+        background: rgb(232, 232, 232);
+    }
+
+    >span{
+        padding: 12px 4px;
+        display: block;
+    }
+}
+/* 
+@media (width < 1000px){
+    .projects{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (width < 700px){
+    .projects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width < 420px){
+    .projects{
+        grid-template-columns: 1fr;
+    }
+} */

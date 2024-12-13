@@ -1,0 +1,30 @@
+
+.contact {
+    display: flex;
+    padding: 12px;
+    gap: 16px;
+    border: 1px solid;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2rem;
+
+    >div{
+        flex: 1;
+    }
+}
+
+input, textarea{
+    padding: 8px 12px;
+    font-size: 15px;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.input-container,
+.address{
+    display: flex;
+    flex-direction: column;
+}

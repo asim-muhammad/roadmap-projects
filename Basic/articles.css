@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+article{
+    min-width: 280px;
+    max-width: 280px;
+    flex: 1;
+    border: 1px solid rgb(212, 212, 212);
+    padding-bottom: 12px;
+
+    .title{
+        display: block;
+        font-size: 16px;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        color: rgb(107, 107, 107);
+    }
+}
+
+.article-header{
+    height: 150px;
+    background: rgb(247, 245, 245);
+}
+
+.article-content{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
