@@ -9,12 +9,9 @@ This repository contains a series of projects, each demonstrating different conc
 1. [Basic HTML Website](./Basic)  
    A simple yet functional static website built using HTML, showcasing the basics of web development.  
 
-2. **[Your Next Project Title]**  
-   Description for the next project (add as you go).
-
-3. **[And So On]**
-
 ## 🔧 How to Explore
 1. Clone this repository:
-   ```bash
+
+```sh
    git clone https://github.com/muhammad-asim/roadmap-projects.git
+```
